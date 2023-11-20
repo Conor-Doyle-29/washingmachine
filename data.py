@@ -1,3 +1,5 @@
+import serial
+ser = serial.Serial()
 ser.baudrate = 115200
 ser.port = 'COM19'
 ser.open()
